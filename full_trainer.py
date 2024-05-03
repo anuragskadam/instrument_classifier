@@ -76,7 +76,7 @@ class InstruConvNet(nn.Module):
 
 # Hyperparameters
 
-epochs = 1
+epochs = 50
 lr = 0.01
 batch_size = 4
 
@@ -109,4 +109,4 @@ for epoch in range(epochs):
                 sep="\t",
             )
 plt.plot(loss_list)
-pickle.dump((CNN_model, loss_list),open('first_trained_model.pickle'))
+pickle.dump((CNN_model, loss_list),open('first_trained_model.pickle', 'wb'))
