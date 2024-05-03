@@ -109,4 +109,4 @@ for epoch in range(epochs):
                 sep="\t",
             )
 plt.plot(loss_list)
-pickle.dump((CNN_model, loss_list))
+pickle.dump((CNN_model, loss_list),open('first_trained_model.pickle'))
