@@ -7,6 +7,6 @@ The model takes as input the spectrogram of the audio signal, and outputs the pr
 The dataset was downloaded from https://www.kaggle.com/datasets/soumendraprasad/musical-instruments-sound-dataset/data.  
 However the dataset was very poorly labeled and I and my friend had to re-label about 1300 data-points ourselves.  
 
-Since the model and dataset were too large to be uploaded to Github, I have only uploaded the main Jupyter Notebook that does both the training and testing for the model. This file contains all the outputs that I obtained while running the code.    
+Since the model and dataset were too large to be uploaded to Github, I have only uploaded the main Jupyter Notebook (ML_code.ipynb) that does both the training and testing for the model. This file contains all the outputs that I obtained while running the code.    
 I have also uploaded the Notebook I used for dataprocessing (not clean).
 
